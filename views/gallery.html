@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-    <h1>Gallery</h1>
-</body>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav">
+        <li class="nav-item"><a href="/home" class="nav-right">Home</a></li>
+      </ul>
+
+      <ul class="nav">
+        <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="/works" class="nav-link">Works</a></li>
+        <li class="nav-item"><a href="/photogallery" class="nav-link">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="jumbotron bg-white">
+        <h1>Gallery</h1>  
+        <div class="card-group">
+  
+          <div class="card">
+            <img src="/images/guernica.jpg" class="card-img" alt="Guernica" />
+            <div class="card-body">
+              <h4 class="card-title">El Guernica</h4>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="images/Avignon.jpg" class="card-img" alt="The Ladies of Avignon" style='width: 50%' />
+            <div class="card-body">
+              <h4 class="card-title">The Ladies of Avignon</h4>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+  </body>
 </html>

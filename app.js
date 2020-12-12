@@ -17,6 +17,7 @@ app.get('/about', (request, response) => {
   response.sendFile(__dirname + '/views/about.html');
 });
 
+
 //path for works
 
 app.get('/works', (request, response) => {
@@ -34,4 +35,5 @@ app.get('*', function (request, response) {
   response.sendFile(__dirname + '/views/home.html');
 });
 
+//load in port 3000
 app.listen(3000);
